@@ -14,7 +14,7 @@ const Reviews = () => {
       setReviews(response.data.results);
     };
     requestFunc();
-  }, []);
+  }, [movieId]);
   return (
     <ReviewsContainer>
       <ReviewsHeading>Reviews</ReviewsHeading>

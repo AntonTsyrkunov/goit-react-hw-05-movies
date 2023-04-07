@@ -29,7 +29,7 @@ const MovieDetails = () => {
       setMovie(response.data);
     };
     requestFunc();
-  }, []);
+  }, [movieId]);
 
   const position = useRef(location.state?.from ?? '/');
 

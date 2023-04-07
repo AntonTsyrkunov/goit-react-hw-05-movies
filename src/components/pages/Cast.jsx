@@ -13,7 +13,7 @@ const Cast = () => {
       setActors(response.data.cast);
     };
     requestFunc();
-  }, []);
+  }, [movieId]);
 
   return (
     <CastContainer>
